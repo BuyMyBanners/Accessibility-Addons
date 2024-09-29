@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/1f4d1ae2-e5e0-4e09-8753-bee9512fc3d2>
+  ImportedAssetIds:
+    FileMLAsset: !<reference> c3ef45ae-b62f-40fd-8e23-c09078f16022
+  ImporterName: FileMLAssetImporter
+  PrimaryAsset: !<reference> c3ef45ae-b62f-40fd-8e23-c09078f16022
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMLAssetImporterSettings/a3f63ef6-4887-41c2-87e5-4527666955f2>
+    Inputs:
+      - !<MLInput/7ee841dd-4c06-4fcd-b59f-babfaa713056>
+        Name: conv2d_20_input
+        Shape: {x: 64.000000, y: 64.000000, z: 3.000000}
+        Normalizations:
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+        Transformer:
+          stretch: true
+          alignment.horizontal: Center
+          alignment.vertical: Center
+          fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+          flipX: false
+          flipY: false
+          rotation: None
+        Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    Outputs:
+      - !<MLOutput/5f065ab0-5c7b-4b25-9a41-d142f78766f0>
+        Name: Identity
+        Shape: {x: 1.000000, y: 1.000000, z: 7.000000}
+        Normalizations:
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+        InputName: ""
+        OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<SingleCompressionSettings/2ede8583-288a-4e17-8d22-df6de5c2529e>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

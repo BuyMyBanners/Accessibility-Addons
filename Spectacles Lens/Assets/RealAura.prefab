@@ -1,0 +1,108 @@
+- !<ObjectPrefab/ba34ad4a-9279-4ebe-8b23-c8a861942a64>
+  PackagePath: ""
+  objects:
+    - !<own> c27181b5-1bde-40af-8efe-1e59faecc15b
+  LazyLoading: false
+  RetainAssets: true
+- !<Head/1c31eec6-3cee-4ed6-b75f-e00db3f906de>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<SceneObject/4e59418b-2762-4500-a544-fefc9ec47371>
+  PrefabRemaps:
+    []
+  Name: Disc
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 8.990000, z: -7.860001}
+    rotation: {x: 90.000008, y: -0.000000, z: 0.000000}
+    scale: {x: 29.049999, y: 58.100002, z: 37.349998}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cb1bfde5-a2f1-493b-8fe6-4c84647f6b6d
+- !<RenderMeshVisual/8e551048-3dfd-403d-a042-8aa25a119eda>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 76bddc12-09ee-45ec-8ef3-091570835079
+  Mesh: !<reference> 1b861dc5-3f11-48b3-bf08-e19dd4a0e01c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a61b8ee7-cdfb-46f0-9a7f-9a62c963f8c0>
+  PrefabRemaps:
+    []
+  Name: Face Occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 7.330000, z: 8.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8e551048-3dfd-403d-a042-8aa25a119eda
+- !<SceneObject/c27181b5-1bde-40af-8efe-1e59faecc15b>
+  PrefabRemaps:
+    []
+  Name: RealAura
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a61b8ee7-cdfb-46f0-9a7f-9a62c963f8c0
+    - !<own> 4e59418b-2762-4500-a544-fefc9ec47371
+  Components:
+    - !<own> 1c31eec6-3cee-4ed6-b75f-e00db3f906de
+- !<RenderMeshVisual/cb1bfde5-a2f1-493b-8fe6-4c84647f6b6d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3a5bce3c-a345-4f3d-94a6-5cdf823185aa
+  Mesh: !<reference> 7d20b900-534f-4fa4-a3e0-ec0c3babcec3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

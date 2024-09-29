@@ -1,0 +1,92 @@
+- !<Material/c7fdebcb-13c3-4cf7-962b-506dcdbadad1>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> ba9cc7d0-e506-4e79-b643-b3f46cc4c198
+- !<PassInfo/ba9cc7d0-e506-4e79-b643-b3f46cc4c198>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    Outlinecolor:
+      typeIdx: 5
+      value: {x: 0.525490, y: 0.145098, z: 0.988235, w: 1.000000}
+    Port_A_N098:
+      typeIdx: 1
+      value: 0.000000
+    Port_A_N110:
+      typeIdx: 1
+      value: 0.000000
+    Port_B_N091:
+      typeIdx: 1
+      value: 0.000000
+    Port_B_N104:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input0_N090:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N097:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N103:
+      typeIdx: 1
+      value: -1.000000
+    Port_Input0_N109:
+      typeIdx: 1
+      value: -1.000000
+    Port_Input0_N121:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N116:
+      typeIdx: 1
+      value: 0.200000
+    Port_Input1_N120:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N123:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N118:
+      typeIdx: 1
+      value: -1.000000
+    Port_Input2_N123:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    brightness:
+      typeIdx: 1
+      value: 29.600000
+    contrast:
+      typeIdx: 1
+      value: -8.640000
+    screenTexture:
+      typeIdx: 9
+      value:
+        id: 92d28ad1-2be9-47fd-bb08-e8b993305553
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    screenTextureSize:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    width:
+      typeIdx: 1
+      value: 2.270000
+  Pass: !<reference> d5456a3e-f97b-4258-8492-0c09948f8e6c

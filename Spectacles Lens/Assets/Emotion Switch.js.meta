@@ -1,0 +1,72 @@
+- !<AssetImportMetadata/e2c36645-9bea-43e0-b2fe-dd8eccc949d7>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> cb3ca3d4-a5ac-4db4-b809-249e429294ae
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> cb3ca3d4-a5ac-4db4-b809-249e429294ae
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> d832cf83-fd09-4469-8cd1-f627a6a703b5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/4cdcef35-68b6-4f0b-a723-e55ebf191772>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d832cf83-fd09-4469-8cd1-f627a6a703b5>
+  SvgIcon: ""
+  Description: chech vs code
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    Output: false
+    classIndex: false
+    debugScoreBar: false
+    loader: false
+    mlComponent: false
+    optional: false
+    scriptsWithCallbacks: false
+    showDebug: false
+    threshold: false
+    toggleObject1: false
+    toggleObject2: false
+    toggleObject3: false
+    toggleObject4: false
+    toggleObject5: false
+    toggleObject6: false
+    toggleObject7: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - outputName: ""
+      toggleObjects: !<reference.SceneObject[]>
+        []
+      identity: ""
+      predictis: ""
+      mlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      Identity: ""
+      classIndex: 0
+      threshold: 0.500000
+      scriptsWithCallbacks: !<reference.ScriptComponent[]>
+        []
+      showDebug: false
+      debugScoreBar: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      optional: false
+      loader: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleObject1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleObject2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleObject3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleObject4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleObject5: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleObject6: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleObject7: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      output: "null"
+      Output: Output;
+  ScriptTypes:
+    -
+      {}

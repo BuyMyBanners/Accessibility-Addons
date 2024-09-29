@@ -1,0 +1,74 @@
+- !<Material/2ebd97e0-f280-43d6-8f0b-9fdf887fb3d5>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 2b91925c-f8fe-4956-8a81-aa43633a540e
+- !<PassInfo/2b91925c-f8fe-4956-8a81-aa43633a540e>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: Always
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Front
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_36_DROPLIST_ITEM 0
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Input1_N030:
+      typeIdx: 5
+      value: {x: 0.250000, y: 1.330000, z: -0.125000, w: -0.830000}
+    Port_Input1_N046:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N049:
+      typeIdx: 1
+      value: 2.000000
+    Port_Multiplier_N007:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    flowTexture:
+      typeIdx: 9
+      value:
+        id: f5d8c7da-657d-49ac-aeb2-4d74ad286908
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    intensity:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    screenTexture:
+      typeIdx: 9
+      value:
+        id: 92d28ad1-2be9-47fd-bb08-e8b993305553
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: true
+        type: Texture2D
+    speed:
+      typeIdx: 1
+      value: 1.000000
+    uvScale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+  Pass: !<reference> bb7f127a-76f5-46f2-b352-3dd4816f02d5

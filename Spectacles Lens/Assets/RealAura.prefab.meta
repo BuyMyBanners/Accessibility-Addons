@@ -1,0 +1,131 @@
+- !<AssetImportMetadata/adcc33ac-af13-4ec1-b016-c6496def5766>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ba34ad4a-9279-4ebe-8b23-c8a861942a64
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ba34ad4a-9279-4ebe-8b23-c8a861942a64
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> af12cc32-ac30-460c-965b-2111e87392ae
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d2fcc5f5-9277-4d24-8559-48d2cdb46139>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/1e9ae690-5658-40af-8b38-599d9c7f6fff>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 76bddc12-09ee-45ec-8ef3-091570835079
+  Mesh: !<reference> 1b861dc5-3f11-48b3-bf08-e19dd4a0e01c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/65d3fbe5-caf8-4daf-b7c2-a7d4e326a877>
+  PrefabRemaps:
+    []
+  Name: Face Occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 7.330000, z: 8.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.100000, y: 1.100000, z: 1.100000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1e9ae690-5658-40af-8b38-599d9c7f6fff
+- !<SceneObject/756ce27a-832f-446b-b37a-9424995cdf0e>
+  PrefabRemaps:
+    []
+  Name: RealAura
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 65d3fbe5-caf8-4daf-b7c2-a7d4e326a877
+    - !<own> bb7224a3-4e22-40d1-8909-0c05abf90003
+  Components:
+    - !<own> e86464f1-6ab8-41a1-be00-6a46df22f0c6
+- !<ObjectPrefabAssetData/af12cc32-ac30-460c-965b-2111e87392ae>
+  SourceRemaps:
+    - 1c31eec6-3cee-4ed6-b75f-e00db3f906de: e86464f1-6ab8-41a1-be00-6a46df22f0c6
+    - 4e59418b-2762-4500-a544-fefc9ec47371: bb7224a3-4e22-40d1-8909-0c05abf90003
+    - 8e551048-3dfd-403d-a042-8aa25a119eda: 1e9ae690-5658-40af-8b38-599d9c7f6fff
+    - a61b8ee7-cdfb-46f0-9a7f-9a62c963f8c0: 65d3fbe5-caf8-4daf-b7c2-a7d4e326a877
+    - c27181b5-1bde-40af-8efe-1e59faecc15b: 756ce27a-832f-446b-b37a-9424995cdf0e
+    - cb1bfde5-a2f1-493b-8fe6-4c84647f6b6d: b5edd2c1-00f8-407b-9a84-286d833a21e8
+  SourceState: !<own> f750a1aa-72cf-457f-add4-1ad231dddee6
+- !<RenderMeshVisual/b5edd2c1-00f8-407b-9a84-286d833a21e8>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3a5bce3c-a345-4f3d-94a6-5cdf823185aa
+  Mesh: !<reference> 7d20b900-534f-4fa4-a3e0-ec0c3babcec3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bb7224a3-4e22-40d1-8909-0c05abf90003>
+  PrefabRemaps:
+    []
+  Name: Disc
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 8.990000, z: -7.860001}
+    rotation: {x: 90.000008, y: -0.000000, z: 0.000000}
+    scale: {x: 29.049999, y: 58.100002, z: 37.349998}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b5edd2c1-00f8-407b-9a84-286d833a21e8
+- !<Head/e86464f1-6ab8-41a1-be00-6a46df22f0c6>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<ObjectPrefab/f750a1aa-72cf-457f-add4-1ad231dddee6>
+  PackagePath: ""
+  objects:
+    - !<own> 756ce27a-832f-446b-b37a-9424995cdf0e
+  LazyLoading: false
+  RetainAssets: true
