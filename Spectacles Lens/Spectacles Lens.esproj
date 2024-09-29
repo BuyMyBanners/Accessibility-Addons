@@ -14,13 +14,13 @@ viewConfig:
     output: Live
     stereoOutputEye: Center
     deviceTypeOverride: Unknown
-  cameraType: Back
+  cameraType: Front
 metaInfo:
   hints:
     []
   tags:
     []
-  lensName: Spectacle Lens
+  lensName: Accesability Addon
   lensDescriptors:
     []
   lensApplicability:

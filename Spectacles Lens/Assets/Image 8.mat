@@ -1,8 +1,8 @@
-- !<Material/d908eb94-ea91-4450-91c9-37444d076224>
+- !<Material/f12a82e4-6ae1-4fe3-841f-97b1dcfa13b0>
   PackagePath: ""
   PassesInfo:
-    - !<own> 9461976e-e720-455e-9dfe-fa81a3fac58d
-- !<PassInfo/9461976e-e720-455e-9dfe-fa81a3fac58d>
+    - !<own> 12ba4422-b380-4df8-9ae2-061c98694f2e
+- !<PassInfo/12ba4422-b380-4df8-9ae2-061c98694f2e>
   DepthWrite: false
   DepthTest: false
   DepthFunction: LessEqual
@@ -33,7 +33,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 923415f5-4245-4675-ade1-6d69d6d23e71
+        id: 3aac620e-a8ad-4dcf-9b78-cc49fe92460c
         sampler:
           filteringMode: Trilinear
           wrapModeU: ClampToEdge
@@ -42,4 +42,4 @@
           borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
           mipmaps: false
         type: Texture2D
-  Pass: !<reference> f31497d8-43ad-458f-8f4f-5927c317b2ba
+  Pass: !<reference> 59a93c53-ad44-4bbc-aa2f-4483a8dce190

@@ -1,10 +1,10 @@
-- !<Material/d908eb94-ea91-4450-91c9-37444d076224>
+- !<Material/be4f64c1-076f-4d78-bde1-cacc42ec1079>
   PackagePath: ""
   PassesInfo:
-    - !<own> 9461976e-e720-455e-9dfe-fa81a3fac58d
-- !<PassInfo/9461976e-e720-455e-9dfe-fa81a3fac58d>
-  DepthWrite: false
-  DepthTest: false
+    - !<own> 4d81b681-d5f9-43a5-96ff-b661c60038cd
+- !<PassInfo/4d81b681-d5f9-43a5-96ff-b661c60038cd>
+  DepthWrite: true
+  DepthTest: true
   DepthFunction: LessEqual
   TwoSided: false
   ColorMask: {x: true, y: true, z: true, w: true}
@@ -14,11 +14,11 @@
   FrustumCullPad: 0.000000
   InstanceCount: 1
   Defines:
+    - ENABLE_BASE_TEX
     - NODE_13_DROPLIST_ITEM 0
     - NODE_27_DROPLIST_ITEM 0
     - NODE_49_DROPLIST_ITEM 0
     - NODE_69_DROPLIST_ITEM 0
-    - ENABLE_BASE_TEX
   BlendMode: PremultipliedAlphaAuto
   Properties:
     Port_Default_N204:
@@ -36,10 +36,10 @@
         id: 923415f5-4245-4675-ade1-6d69d6d23e71
         sampler:
           filteringMode: Trilinear
-          wrapModeU: ClampToEdge
-          wrapModeV: ClampToEdge
-          wrapModeW: ClampToEdge
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
           borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
           mipmaps: false
         type: Texture2D
-  Pass: !<reference> f31497d8-43ad-458f-8f4f-5927c317b2ba
+  Pass: !<reference> 762c5433-a680-4866-ac3f-df4023da3753

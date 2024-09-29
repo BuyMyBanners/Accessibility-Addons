@@ -24,7 +24,8 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    Output: false
+    Identity: false
+    cameraObject: false
     classIndex: false
     debugScoreBar: false
     loader: false
@@ -46,10 +47,11 @@
     - outputName: ""
       toggleObjects: !<reference.SceneObject[]>
         []
-      identity: ""
+      identity: Identity
       predictis: ""
+      output: Output
+      Output: Output
       mlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
-      Identity: ""
       classIndex: 0
       threshold: 0.500000
       scriptsWithCallbacks: !<reference.ScriptComponent[]>
@@ -65,8 +67,8 @@
       toggleObject5: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       toggleObject6: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       toggleObject7: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      output: "null"
-      Output: Output;
+      Identity: Identity
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
